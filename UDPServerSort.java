@@ -9,7 +9,7 @@ class UDPServerSort
             byte[] receiveData = new byte[1024];
             byte[] sendData = new byte[1024];
 	    int i, n, ele;
-            while(true)
+            while(1)
                {
 		  
                   DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
